@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OTAFirmwareActivity">
+
+
+    <TextView
+        android:id="@+id/txt_det"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dett" />
+
+    <TextView
+        android:id="@+id/txt_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserisci qui l'indirizzo IP su cui si trova il firmware" />
+
+    <EditText
+        android:id="@+id/edttxt_ip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/txt_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Inserisci qui il nome del file" />
+
+    <EditText
+        android:id="@+id/edttxt_filename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btn_unlock_ota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sblocca sostituzione Firmware" />
+
+    <Button
+        android:id="@+id/btn_configura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sostituisci il Firmware" />
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="BENVENUTI in BETTOMOTICA"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="match_parent"
+                android:layout_height="384dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/biglietto_da_visita" />
+
+            <TextView
+                android:id="@+id/intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Questa applicazione è stata creata per permetterti di poter controllare l'accensione e lo spegnimento di un punto luce della tua casa o le luci del tuo albero di Natale direttamente dal tuo comodissimo divano. Quindi impegnati 5 minuti per configurare il dispositivo per poi poter vivere la tua vita in totale relax. Betto e Jessica vi augurano un felice Natale dal loro comodissimo primo divano.  "
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="INIZIO"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text='Vai sulle impostazioni del tuo telefono e seleziona la voce "Rete e Internet"'
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="545dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/istruzioni1" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text='Seleziona la voce "Hotspot e tethering"'
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/istruzioni2" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text='Clicca su "Hotspot Wi-Fi"'
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="match_parent"
+                android:layout_height="558dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/istruzioni3" />
+
+            <TextView
+                android:id="@+id/textView7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text='Compila i campi "nome hotspot" con la dicitura "sonoffDiy" e il campo password hotspot" con  "20170618sn"'
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="559dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/istruzioni4" />
+
+            <TextView
+                android:id="@+id/textView8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Terminato il tutto torna sull'applicazione e configura il tuo dispositivo. clicca sull'icona in alto a destra sulla prima pagina."
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="match_parent"
+                android:layout_height="534dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/istruzioni5" />
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="RICERCA DISPOSITIVO"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/textView10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Una volta configurato l'Hotspot cerchiamo il dispositivo connesso cliccando sul bottone INZIA LA RICERCA"
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="match_parent"
+                android:layout_height="581dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/istruzioni6" />
+
+            <TextView
+                android:id="@+id/textView11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Seleziona il dispositivo che preferisci dall'elenco"
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <ImageView
+                android:id="@+id/imageView9"
+                android:layout_width="match_parent"
+                android:layout_height="546dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/istruzioni7" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="CONFIGURAZIONE WIFI"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="Ultimo passaggio ma non meno importante è la configurazione del wifi al dispositivo. Controlla prima di confermare che le credenziali siano corrette altrimenti dovrai creare un Hotspot con le credenziali errate per correggere l'errore!"
+                android:textAppearance="@style/TextAppearance.Design.HelperText" />
+
+            <ImageView
+                android:id="@+id/imageView10"
+                android:layout_width="match_parent"
+                android:layout_height="550dp"
+                android:padding="20dp"
+                app:srcCompat="@drawable/istruzioni8" />
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp"
+                android:text="BENE! ora sei pronto per goderti il divano e passare un felicissimo Natale!"
+                android:textAppearance="@style/TextAppearance.AppCompat.Title" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
