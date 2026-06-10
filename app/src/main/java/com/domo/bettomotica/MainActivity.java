@@ -5,6 +5,7 @@ import android.content.SharedPreferences;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
@@ -43,6 +44,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);
 
         prefs = getSharedPreferences("com.domo.bettomotica", 0); // 0 - for private mode
         editor = prefs.edit();
@@ -124,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
@@ -132,22 +137,17 @@ public class MainActivity extends AppCompatActivity {
     }
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()) {
+        int id = item.getItemId();
 
-            // action with ID action_settings was selected
-            case R.id.action_settings:
-                Intent intent = new Intent(this, WiFiScanActivity.class);
-                startActivity(intent);
-                break;
-            default:
-                break;
+        // action with ID action_settings was selected
+        if (id == R.id.action_settings) {
+            Intent intent = new Intent(this, WiFiScanActivity.class);
+            startActivity(intent);
         }
 
         return true;
-
-
-
     }
+
 
 
 
@@ -248,3 +248,4 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 }
+

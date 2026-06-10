@@ -9,3 +9,5 @@
 /build
 /captures
 .externalNativeBuild
+/CLAUDE.md
+/build_log.txt
